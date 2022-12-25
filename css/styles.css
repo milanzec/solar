@@ -667,6 +667,7 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  
 }
 .row > * {
   flex-shrink: 0;
@@ -951,13 +952,13 @@ progress {
   }
 
   .col-sm-5 {
-    flex: 0 0 auto;
+    flex: 0 0 50%;
     width: 41.66666667%;
   }
 
   .col-sm-6 {
     flex: 0 0 auto;
-    width: 50%;
+    max-width: 50%;
   }
 
   .col-sm-7 {
@@ -8015,7 +8016,7 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #64a19d !important;
 }
 
 .bg-white {
@@ -11460,11 +11461,12 @@ html {
 
 body {
   letter-spacing: 0.0625em;
+  background-color: #f8f9fa;
 }
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: #f8f9fa;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11476,7 +11478,7 @@ body {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #000;
+  color: #64a19d;
   font-weight: 700;
   padding: 0.9rem 0;
 }
@@ -11549,8 +11551,8 @@ body {
 .masthead {
   position: relative;
   width: 100%;
-  height: auto;
-  min-height: 35rem;
+  height: 15rem;
+  min-height: 15rem;
   padding: 15rem 0;
   background:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 65%, #000000c4 100%),url("../assets/img/solarnebo.jpg");
 
@@ -11597,7 +11599,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  /** background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);*/
  
 }
 .about-section p {
@@ -11633,7 +11635,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/solarcontact.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11686,6 +11688,38 @@ body {
 .contact-section .social a:active {
   color: #fff;
 }
+
+section {
+  display:block;
+}
+.services {
+  padding: 80px 0 50px;
+}
+.title{
+  margin-bottom: 20px;
+}
+
+.services h5{
+  border-bottom: 2px solid #e7e7e7;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color:#2ab08b
+}
+
+.services .media{
+  margin: 40px 0;
+}
+.media{
+  display:flex;
+  align-items: flex-start;
+}
+.media-body {
+  flex: 1;
+}
+.mr-4{
+  margin-right: 1.5rem;
+}
+
 
 .footer {
   padding: 5rem 0;
