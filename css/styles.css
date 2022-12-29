@@ -632,6 +632,7 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 @media (min-width: 576px) {
@@ -11554,7 +11555,7 @@ body {
   height: 15rem;
   min-height: 15rem;
   padding: 15rem 0;
-  background:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 65%, #000000c4 100%),url("../assets/img/solarnebo.jpg");
+  background:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 65%, #000000c4 100%),url("../assets/img/solarnebo.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -11583,7 +11584,7 @@ body {
 }
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    height: 75vh;
     padding: 0;
   }
   .masthead h1, .masthead .h1 {
@@ -11603,7 +11604,7 @@ body {
  
 }
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .projects-section {
@@ -11694,6 +11695,7 @@ section {
 }
 .services {
   padding: 80px 0 50px;
+  margin-bottom: 120px;
 }
 .title{
   margin-bottom: 20px;
@@ -11709,6 +11711,9 @@ section {
 .services .media{
   margin: 40px 0;
 }
+.projects-title{
+  margin-bottom: 30px;
+}
 .media{
   display:flex;
   align-items: flex-start;
@@ -11718,6 +11723,9 @@ section {
 }
 .mr-4{
   margin-right: 1.5rem;
+}
+.margin50{
+  margin: 50px;
 }
 
 
