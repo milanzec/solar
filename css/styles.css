@@ -3027,7 +3027,7 @@ textarea.form-control-lg {
 .btn-primary {
   color: #fff;
   background-color: #64a19d;
-  border-color: #64a19d;
+ /* border-color: #64a19d;*/
 }
 .btn-primary:hover {
   color: #fff;
@@ -8017,7 +8017,7 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: #64a19d !important;
+  background-color:#031d3c !important;
 }
 
 .bg-white {
@@ -11564,10 +11564,10 @@ body {
 }
 .masthead h1, .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.95));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11578,7 +11578,7 @@ body {
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 4rem;
   }
 }
@@ -11588,14 +11588,22 @@ body {
     padding: 0;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 6.5rem;
+    font-size: 2.75rem;
     line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+  /* letter-spacing: 0.8rem*/
   }
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
     font-size: 1.25rem;
   }
+}
+
+.purple{
+  color:#031d3c;
+}
+
+.italic{
+  font-style: italic;
 }
 
 .about-section {
@@ -11655,6 +11663,12 @@ body {
 .contact-section {
   padding-top: 5rem;
 }
+.center-img {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
 .contact-section .card {
   border: 0;
   border-bottom: 0.25rem solid #64a19d;
