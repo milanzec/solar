@@ -5737,6 +5737,10 @@ textarea.form-control-lg {
   padding: 1rem;
 }
 
+.bold{
+  font-weight: bold;
+
+}
 /*.modal-footer {
   display: flex;
   flex-wrap: wrap;
